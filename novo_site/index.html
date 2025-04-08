@@ -25,17 +25,16 @@
     </header>
 
     <main>
-        <!-- CONTAINER ADICIONADO AQUI (ÚNICA ALTERAÇÃO) -->
         <div id="container_carrosel" class="container">
             <div id="carrosel" class="mt-5 carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active" data-bs-interval="4000">
                         <img src="imagens/Design sem nome.svg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="imagens/Quadro.svg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="imagens/Shaft portoes.svg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -50,19 +49,60 @@
             </div>
         </div>
         
-            <div id="container_quemsomos"class="container">
-              <div class="quemsomos align-items-center text-center">
-                  <div>
-                      <h3>QUEM SOMOS ?</h3>
-                      <h5>
-                          A Systech é uma empresa Londrinense que nasceu da iniciativa de oferecer serviços <br> em segurança e automação
-                          voltados para empresas, condomínios ou residências.
-                      </h5>
-                  </div>
-              </div>
+        <div id="container_quemsomos" class="container">
+            <div class="quemsomos align-items-center text-center">
+                <div>
+                    <h3>QUEM SOMOS ?</h3>
+                    <h5>
+                        A Systech é uma empresa Londrinense que nasceu da iniciativa de oferecer serviços <br> em segurança e automação
+                        voltados para empresas, condomínios ou residências.
+                    </h5>
+                </div>
             </div>
-            
-            
+        </div>
+
+        <!-- INÍCIO DA SEÇÃO MODIFICADA (APENAS ESTA PARTE FOI ALTERADA) -->
+        <div id="container_titleservicos" class="container">
+            <div class="servicos text-center mb-5"> <!-- Removido align-items-center desnecessário -->
+                <h3>Quais são nossos serviços ?</h3>
+            </div>
+
+            <div class="row justify-content-center g-4"> <!-- Adicionado g-4 para espaçamento entre cards -->
+                <div class="col-lg-4 col-md-6"> <!-- Alterado para tamanhos responsivos -->
+                    <div class="card h-100 mx-auto" style="width: 18rem;"> <!-- Adicionado mx-auto e h-100 -->
+                        <img src="imagens/cards/card_automacao.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-grid">
+                            <h5 class="card-title text-center">Automação</h5>
+                            <p class="card-text text-center">Sistema completo de automação predial com painéis personalizados que unificam o controle de portões, bombas, alarmes e iluminação. Toda a operação fica disponível de forma intuitiva para o porteiro, com monitoramento em tempo real e alertas automáticos para qualquer irregularidade.</p>
+                            <a href="#" class="btn btn-primary ">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 mx-auto" style="width: 18rem;">
+                        <img src="imagens/cards/card_cftv.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-grid">
+                            <h5 class="card-title text-center">CFTV</h5>
+                            <p class="card-text text-center">Sistema completo de CFTV com monitoramento em tempo real, dando ao porteiro controle total sobre todas as áreas do condomínio. Desde a visualização das entradas principais até pontos estratégicos como elevadores, garagens e áreas comuns, tudo acessível de forma intuitiva diretamente na portaria.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 mx-auto" style="width: 18rem;">
+                        <img src="imagens/cards/card_acesso.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-grid">
+                            <h5 class="card-title text-center">Controle de Acesso Inteligente</h5>
+                            <p class="card-text text-center">Sistemas de acesso inteligente com biometria facial, interfone, fechaduras eletrônicas e controle remoto. Segurança moderna que elimina chaves físicas permitindo liberação imediata e segura de pessoas credenciadas no banco de dados ou permitidas pela própria portaria.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        Implementamos sistemas avançados de controle de acesso com fechaduras eletrônicas, reconhecimento facial e interfones digitais. Tecnologia que elimina chaves físicas, permitindo liberação
 
     </main>
 
