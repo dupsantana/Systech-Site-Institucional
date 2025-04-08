@@ -33,3 +33,43 @@ header {
 .servicos{
         margin-top: 100px;
 }
+
+.texto_autom{
+    margin-top: 130px !important;
+    
+}
+
+.texto_autom_2{
+    margin-top: 130px !important;
+    
+}
+
+
+footer {
+    color: white;
+    margin-top: 250px;
+    z-index: 1030;
+    background-color: rgb(17, 42, 99);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+    height: 80px !important;
+}
+
+
+.card {
+    height: 100%;
+}
+
+/*CARDS*/
+/* Alinha o conteúdo dos cards verticalmente */
+
+
+/* Define altura fixa para os botões */
+.card-body .btn {
+    height: 45px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
