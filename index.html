@@ -1,135 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Systech - Automação Predial</title>
-    <link rel="icon" type="image/x-icon" href="image/Systechnovo.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">   
-</head>
+    <link rel="icon" type="image/x-icon" href="image/Systechnovo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body style="background-color: #ffffff75;">
+  <body style="background-color: #ffffff75">
     <header class="fixed-top py-4">
-        <div class="d-flex align-items-center">
-            <div id="logo" class="me-4 d-flex gap-3">
-                <img style="max-height: 40px" class="img-fluid" src="imagens/LOGO_BRANCO1000.png" alt="">
-            </div>
-            
-            <div class="d-flex gap-3" id="botoesheader">
-                <a class="text-decoration-none text-light fs-5" href="index.html">Home</a>
-                <a class="text-decoration-none text-light fs-5" href="">Obras</a>
-                <a class="text-decoration-none text-light fs-5" href="">Contato</a>
-            </div>
-            
+      <div class="d-flex align-items-center">
+        <div id="logo" class="me-4 d-flex gap-3">
+          <img
+            style="max-height: 40px"
+            class="img-fluid"
+            src="imagens/LOGO_BRANCO1000.png"
+            alt=""
+          />
         </div>
+
+        <div class="container conthead">
+          <div class="d-flex gap-3" id="botoesheader">
+            <a
+              class="item text-decoration-none text-light fs-5"
+              href="index.html"
+              >Home</a
+            >
+            <a class="item text-decoration-none text-light fs-5" href=""
+              >Obras</a
+            >
+            <a class="item text-decoration-none text-light fs-5" href=""
+              >Contato</a
+            >
+          </div>
+        </div>
+      </div>
     </header>
 
-     <!--CARROSSEL-->
+    <!--CARROSSEL-->
     <main>
-        
-        <div class="container">
-        
+      <div class="container">
         <div id="container_carrosel" class="container">
-            <div id="carrosel" class="mt-5 carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3500">
-                        <img src="imagens/Plaenge_obra.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3500">
-                        <img src="imagens/Quadro.svg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3500">
-                        <img src="imagens/Portaria.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3500">
-                        <img src="imagens/Cameras.svg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3500">
-                        <img src="imagens/Shaft portoes.svg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+          <div
+            id="carrosel"
+            class="mt-5 carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img
+                  src="imagens/Plaenge_obra.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img src="imagens/Quadro.svg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="imagens/Portaria.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="imagens/Cameras.svg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="imagens/Shaft portoes.svg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carrosel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carrosel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-    </div>
+      </div>
 
-        
-
-
-        <div id="container_quemsomos" class="container">
-            <div class="quemsomos align-items-center text-center">
-                <div>
-                    <h3>QUEM SOMOS ?</h3>
-                    <p></p>
-                        
-                </div>
-            </div>
+      <div id="container_quemsomos" class="container">
+        <div class="quemsomos align-items-center text-center">
+          <div>
+            <h3>QUEM SOMOS ?</h3>
+            <p></p>
+          </div>
         </div>
-    
+      </div>
 
-        <!--CARDS-->
-        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+      <!--CARDS-->
+      <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
         <div id="container_titleservicos" class="container">
-            <div class="servicos text-center mb-5"> 
-                <h3>Quais são nossos serviços ?</h3>
+          <div class="servicos text-center mb-5">
+            <h3>Quais são nossos serviços ?</h3>
+          </div>
+
+          <div class="row justify-content-center g-4">
+            <!-- Adicionado g-4 para espaçamento entre cards -->
+            <div class="col-lg-4 col-md-6">
+              <!-- Alterado para tamanhos responsivos -->
+              <div class="card h-100 mx-auto" style="width: 18rem">
+                <!-- Adicionado mx-auto e h-100 -->
+                <img
+                  src="imagens/cards/card_automacao.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center d-grid">
+                  <h5 class="card-title text-center">Comandos de Automação</h5>
+                  <p class="card-text text-center">
+                    Sistema completo de automação predial com painéis
+                    personalizados que unificam o controle de portões, bombas,
+                    alarmes e iluminação. Toda a operação fica disponível de
+                    forma intuitiva para o porteiro, com monitoramento em tempo
+                    real e alertas automáticos para qualquer irregularidade.
+                  </p>
+                  <a href="automacao.html" class="btn btn-danger">Saiba mais</a>
+                </div>
+              </div>
             </div>
 
-            <div class="row justify-content-center g-4"> <!-- Adicionado g-4 para espaçamento entre cards -->
-                <div class="col-lg-4 col-md-6"> <!-- Alterado para tamanhos responsivos -->
-                    <div class="card h-100 mx-auto" style="width: 18rem;"> <!-- Adicionado mx-auto e h-100 -->
-                        <img src="imagens/cards/card_automacao.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-grid">
-                            <h5 class="card-title text-center">Comandos de Automação</h5>
-                            <p class="card-text text-center">Sistema completo de automação predial com painéis personalizados que unificam o controle de portões, bombas, alarmes e iluminação. Toda a operação fica disponível de forma intuitiva para o porteiro, com monitoramento em tempo real e alertas automáticos para qualquer irregularidade.</p>
-                            <a href="automacao.html" class="btn btn-primary ">Saiba mais</a>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100 mx-auto" style="width: 18rem">
+                <img
+                  src="imagens/cards/card_cftv.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center d-grid">
+                  <h5 class="card-title text-center">CFTV</h5>
+                  <p class="card-text text-center">
+                    Sistema completo de CFTV com monitoramento em tempo real,
+                    dando ao porteiro controle total sobre todas as áreas do
+                    condomínio. Desde a visualização das entradas principais até
+                    pontos estratégicos como elevadores, garagens e áreas
+                    comuns, tudo acessível de forma intuitiva diretamente na
+                    portaria.
+                  </p>
+                  <a href="cftv.html" class="btn btn-danger">Saiba mais</a>
                 </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 mx-auto" style="width: 18rem;">
-                        <img src="imagens/cards/card_cftv.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-grid">
-                            <h5 class="card-title text-center">CFTV</h5>
-                            <p class="card-text text-center">Sistema completo de CFTV com monitoramento em tempo real, dando ao porteiro controle total sobre todas as áreas do condomínio. Desde a visualização das entradas principais até pontos estratégicos como elevadores, garagens e áreas comuns, tudo acessível de forma intuitiva diretamente na portaria.</p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 mx-auto" style="width: 18rem;">
-                        <img src="imagens/cards/card_acesso.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-grid">
-                            <h5 class="card-title text-center">Controle de Acesso Inteligente</h5>
-                            <p class="card-text text-center">Sistemas de acesso inteligente com biometria facial, interfone, fechaduras eletrônicas e controle remoto. Segurança moderna que elimina chaves físicas permitindo liberação imediata e segura de pessoas credenciadas no banco de dados ou permitidas pela própria portaria.</p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100 mx-auto" style="width: 18rem">
+                <img
+                  src="imagens/cards/card_acesso.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center d-grid">
+                  <h5 class="card-title text-center">
+                    Controle de Acesso Inteligente
+                  </h5>
+                  <p class="card-text text-center">
+                    Sistemas de acesso inteligente com biometria facial,
+                    interfone, fechaduras eletrônicas e controle remoto.
+                    Segurança moderna que elimina chaves físicas permitindo
+                    liberação imediata e segura de pessoas credenciadas no banco
+                    de dados ou permitidas pela própria portaria.
+                  </p>
+                  <a href="acesso.html" class="btn btn-danger">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </main>
 
-    <footer class="d-flex align-items-center justify-content-center" style="height: 100px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">© Systech - Londrina PR</p>
-                </div>
-            </div>
+    <footer
+      class="d-flex align-items-center justify-content-center"
+      style="height: 100px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0">© Systech - Londrina PR</p>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
